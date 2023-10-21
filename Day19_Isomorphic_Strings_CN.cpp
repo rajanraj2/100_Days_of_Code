@@ -1,3 +1,6 @@
+// Link to problem :
+// https://www.codingninjas.com/studio/problems/isomorphic-strings-_1117636?leftPanelTab=0
+
 #include <iostream>
 #include <string>
 #include <unordered_map>
