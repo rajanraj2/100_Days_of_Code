@@ -18,7 +18,14 @@ public:
 };
 
 int main(){
-    int n;
-    int start; // Starting number for XOR operation
+    int n, start;
+    cout << "Enter the value of n: ";
+    cin >> n;
+    cout << "Enter the value of start: ";
+    cin >> start;
     
+    Solution s;
+    int result = s.xorOperation(n, start);
+    cout << "The result is: " << result << endl;
+    return 0;
 }

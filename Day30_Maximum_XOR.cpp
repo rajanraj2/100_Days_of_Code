@@ -34,5 +34,15 @@ int maximumXor(vector<int> A)
 }
 
 int main(){
-    
+    int n;
+    cout << "Enter the size of the array: ";
+    cin >> n;
+    vector<int> A(n);
+    cout << "Enter the elements of the array: ";
+    for(int i = 0; i < n; i++){
+        cin >> A[i];
+    }
+    int maxXOR = maximumXor(A);
+    cout << "The maximum XOR value is: " << maxXOR << endl;
+    return 0;
 }
