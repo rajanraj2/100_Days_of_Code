@@ -51,6 +51,7 @@ int main(){
     for (int i = 0; i < n; i++){
         cin >> nums[i];
     }
+    
     vector<int> ans = sol.sortArray(nums);
     for (int i = 0; i < n; i++){
         cout << ans[i] << " ";
